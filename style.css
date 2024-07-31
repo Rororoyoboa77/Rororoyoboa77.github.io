@@ -1,5 +1,13 @@
-h1{color: rgb(217, 255, 177);} 
+h1{color: rgb(194, 249, 136);} 
+
 body{
     background-image:linear-gradient(rgb(250, 250, 186), rgb(240, 222, 234));
+    background-color: rgba(19, 72, 187, 0.659);
 }
-.special{color: lightcoral;}
+
+p{color: rgb(235, 143, 143);}
+
+h1 em{font-size: large;}
+h1{font-size:large;}
+
+
