@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugar Cookie Clicker</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #cookie {
+            width: 200px;
+            height: 200px;
+            background-color: #ebe0bf;
+            border-radius: 50%;
+            margin: 0 auto;
+            line-height: 200px;
+            font-size: 24px;
+            color: white;
+            user-select: none;
+            cursor: pointer;
+        }
+        #score {
+            margin-top: 20px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="cookie">Click Me!</div>
+    <div id="score">0</div>
+
+    <script>
+        let counter = 0;
+        const cookie = document.getElementById('cookie');
+        const score = document.getElementById('score');
+
+        cookie.onclick = () => {
+            counter++;
+            score.innerText = counter;
+        };
+    </script>
+</body>
+</html>
